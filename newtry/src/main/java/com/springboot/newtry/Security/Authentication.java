@@ -1,4 +1,9 @@
 package com.springboot.newtry.Security;
 
-public class Authentication {
+import javax.naming.AuthenticationException;
+
+public interface Authentication {
+
+    Authentication authenticate(Authentication authentication)
+            throws AuthenticationException;
 }
