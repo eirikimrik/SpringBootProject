@@ -20,6 +20,12 @@ import static com.springboot.newtry.Entity.UserRoles.ADMIN;
 public class SecurityConfiguration {
 
 
+    /**
+     *
+     * @param http
+     * @return
+     * @throws Exception
+     */
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
