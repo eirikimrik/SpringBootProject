@@ -1,4 +1,4 @@
 package com.springboot.newtry.Security;
 
-public class Authentication {
+public class Authentications {
 }
