@@ -4,12 +4,11 @@ package com.springboot.newtry.Controller;
 import com.springboot.newtry.Entity.User;
 import com.springboot.newtry.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin
 @RequestMapping("/user")
+@CrossOrigin
 public class UserController {
 
     @Autowired
